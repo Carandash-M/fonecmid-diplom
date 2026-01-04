@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b2b48f8-edd0-49fc-8d02-e901eef08507">
-  <name>ВКМ_РаботаСЗаявкамиКлиентов</name>
+  <name>ВКМ_ОбслуживаниеКлиентов</name>
   <synonym>
     <key>ru</key>
-    <value>Работа с заявками клиентов</value>
+    <value>Обслуживание клиентов</value>
   </synonym>
 </mdclass:CommonPicture>
