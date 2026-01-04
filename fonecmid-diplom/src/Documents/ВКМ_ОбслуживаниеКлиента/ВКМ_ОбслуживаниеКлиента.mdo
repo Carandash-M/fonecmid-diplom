@@ -111,6 +111,14 @@
         <dateFractions>Time</dateFractions>
       </dateQualifiers>
     </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ='HH:mm'</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ='HH:mm'</value>
+    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -129,6 +137,14 @@
         <dateFractions>Time</dateFractions>
       </dateQualifiers>
     </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ='HH:mm'</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ='HH:mm'</value>
+    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
