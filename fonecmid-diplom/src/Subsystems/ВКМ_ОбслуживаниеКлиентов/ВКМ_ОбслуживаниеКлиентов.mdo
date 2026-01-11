@@ -17,4 +17,5 @@
   <content>Role.ВКМ_ДобавлениеИзменениеДокументовОбслуживаниеКлиента</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
+  <content>DataProcessor.ВКМ_КалендарьСпециалистов</content>
 </mdclass:Subsystem>
