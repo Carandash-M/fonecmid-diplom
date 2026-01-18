@@ -25,4 +25,7 @@
   <content>DataProcessor.ВКМ_ЗаполнениеГрафикаРаботы</content>
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <content>AccumulationRegister.ВКМ_УчетОтпусков</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеКадровыхДокументов</content>
 </mdclass:Subsystem>
