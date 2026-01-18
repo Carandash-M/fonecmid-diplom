@@ -6,7 +6,8 @@
       <commands>Catalog.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
-      <group>NavigationPanelSeeAlso</group>
+      <group>CommandGroup.ВКМ_Документы</group>
+      <commands>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_НачислениеФиксированнойПремии.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_НачисленияЗарплаты.StandardCommand.OpenList</commands>
     </placementFragments>
@@ -17,9 +18,10 @@
       <commands>Catalog.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
-      <group>NavigationPanelSeeAlso</group>
-      <commands>Document.ВКМ_НачисленияЗарплаты.StandardCommand.OpenList</commands>
+      <group>CommandGroup.ВКМ_Документы</group>
+      <commands>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_НачислениеФиксированнойПремии.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_НачисленияЗарплаты.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

@@ -2,7 +2,7 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
     <name>ГруппаДатаНомер</name>
-    <id>44</id>
+    <id>38</id>
     <items xsi:type="form:FormField">
       <name>Дата</name>
       <id>4</id>
@@ -96,7 +96,7 @@
     </title>
     <extendedTooltip>
       <name>ГруппаДатаНомерРасширеннаяПодсказка</name>
-      <id>45</id>
+      <id>39</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -115,7 +115,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:Table">
-    <name>ВКМ_НачисленияЗП</name>
+    <name>ВКМ_Выплаты</name>
     <id>13</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -123,11 +123,11 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВКМ_НачисленияЗП</segments>
+      <segments>Объект.ВКМ_Выплаты</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>ВКМ_НачисленияЗПНомерСтроки</name>
+      <name>ВКМ_ВыплатыНомерСтроки</name>
       <id>26</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -135,10 +135,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_НачисленияЗП.LineNumber</segments>
+        <segments>Объект.ВКМ_Выплаты.LineNumber</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_НачисленияЗПНомерСтрокиРасширеннаяПодсказка</name>
+        <name>ВКМ_ВыплатыНомерСтрокиРасширеннаяПодсказка</name>
         <id>28</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -148,7 +148,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_НачисленияЗПНомерСтрокиКонтекстноеМеню</name>
+        <name>ВКМ_ВыплатыНомерСтрокиКонтекстноеМеню</name>
         <id>27</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -163,7 +163,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_НачисленияЗПВКМ_Сотрудник</name>
+      <name>ВКМ_ВыплатыВКМ_Сотрудник</name>
       <id>29</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -171,10 +171,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_НачисленияЗП.ВКМ_Сотрудник</segments>
+        <segments>Объект.ВКМ_Выплаты.ВКМ_Сотрудник</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_НачисленияЗПВКМ_СотрудникРасширеннаяПодсказка</name>
+        <name>ВКМ_ВыплатыВКМ_СотрудникРасширеннаяПодсказка</name>
         <id>31</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -184,7 +184,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_НачисленияЗПВКМ_СотрудникКонтекстноеМеню</name>
+        <name>ВКМ_ВыплатыВКМ_СотрудникКонтекстноеМеню</name>
         <id>30</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -204,19 +204,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_НачисленияЗПВКМ_ВидРасчета</name>
-      <id>32</id>
+      <name>ВКМ_ВыплатыВКМ_ВидРасчета</name>
+      <id>35</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_НачисленияЗП.ВКМ_ВидРасчета</segments>
+        <segments>Объект.ВКМ_Выплаты.ВКМ_ВидРасчета</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_НачисленияЗПВКМ_ВидРасчетаРасширеннаяПодсказка</name>
-        <id>34</id>
+        <name>ВКМ_ВыплатыВКМ_ВидРасчетаРасширеннаяПодсказка</name>
+        <id>37</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -225,8 +225,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_НачисленияЗПВКМ_ВидРасчетаКонтекстноеМеню</name>
-        <id>33</id>
+        <name>ВКМ_ВыплатыВКМ_ВидРасчетаКонтекстноеМеню</name>
+        <id>36</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -234,6 +234,11 @@
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
+      <footerText>
+        <key>ru</key>
+        <value>ИТОГО:</value>
+      </footerText>
+      <footerHorizontalAlign>Right</footerHorizontalAlign>
       <extInfo xsi:type="form:InputFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -245,19 +250,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ВКМ_НачисленияЗПВКМ_ДатаНачала</name>
-      <id>48</id>
+      <name>ВКМ_ВыплатыВКМ_Сумма</name>
+      <id>32</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_НачисленияЗП.ВКМ_ДатаНачала</segments>
+        <segments>Объект.ВКМ_Выплаты.ВКМ_Сумма</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_НачисленияЗПВКМ_ДатаНачалаРасширеннаяПодсказка</name>
-        <id>50</id>
+        <name>ВКМ_ВыплатыВКМ_СуммаРасширеннаяПодсказка</name>
+        <id>34</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -266,8 +271,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_НачисленияЗПВКМ_ДатаНачалаКонтекстноеМеню</name>
-        <id>49</id>
+        <name>ВКМ_ВыплатыВКМ_СуммаКонтекстноеМеню</name>
+        <id>33</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -275,86 +280,9 @@
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>ВКМ_НачисленияЗПВКМ_ДатаОкончания</name>
-      <id>51</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_НачисленияЗП.ВКМ_ДатаОкончания</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ВКМ_НачисленияЗПВКМ_ДатаОкончанияРасширеннаяПодсказка</name>
-        <id>53</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ВКМ_НачисленияЗПВКМ_ДатаОкончанияКонтекстноеМеню</name>
-        <id>52</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>ВКМ_НачисленияЗПВКМ_ГрафикРаботы</name>
-      <id>41</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_НачисленияЗП.ВКМ_ГрафикРаботы</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ВКМ_НачисленияЗПВКМ_ГрафикРаботыРасширеннаяПодсказка</name>
-        <id>43</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ВКМ_НачисленияЗПВКМ_ГрафикРаботыКонтекстноеМеню</name>
-        <id>42</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
+      <footerDataPath xsi:type="form:DataPath">
+        <segments>Объект.ВКМ_Выплаты.TotalВКМ_Сумма</segments>
+      </footerDataPath>
       <extInfo xsi:type="form:InputFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -366,16 +294,41 @@
       </extInfo>
     </items>
     <autoCommandBar>
-      <name>ВКМ_НачисленияЗПКоманднаяПанель</name>
+      <name>ВКМ_ВыплатыКоманднаяПанель</name>
       <id>15</id>
+      <items xsi:type="form:Button">
+        <name>ВКМ_ВыплатыВКМ_Заполнить</name>
+        <id>42</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ВКМ_ВыплатыВКМ_ЗаполнитьРасширеннаяПодсказка</name>
+          <id>43</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ВКМ_Заполнить</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
     <searchStringAddition>
-      <name>ВКМ_НачисленияЗПСтрокаПоиска</name>
+      <name>ВКМ_ВыплатыСтрокаПоиска</name>
       <id>17</id>
       <extendedTooltip>
-        <name>ВКМ_НачисленияЗПСтрокаПоискаРасширеннаяПодсказка</name>
+        <name>ВКМ_ВыплатыСтрокаПоискаРасширеннаяПодсказка</name>
         <id>19</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -385,20 +338,20 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_НачисленияЗПСтрокаПоискаКонтекстноеМеню</name>
+        <name>ВКМ_ВыплатыСтрокаПоискаКонтекстноеМеню</name>
         <id>18</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ВКМ_НачисленияЗП</source>
+      <source>ВКМ_Выплаты</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchStringAddition>
     <viewStatusAddition>
-      <name>ВКМ_НачисленияЗПСостояниеПросмотра</name>
+      <name>ВКМ_ВыплатыСостояниеПросмотра</name>
       <id>20</id>
       <extendedTooltip>
-        <name>ВКМ_НачисленияЗПСостояниеПросмотраРасширеннаяПодсказка</name>
+        <name>ВКМ_ВыплатыСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>22</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -408,21 +361,21 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_НачисленияЗПСостояниеПросмотраКонтекстноеМеню</name>
+        <name>ВКМ_ВыплатыСостояниеПросмотраКонтекстноеМеню</name>
         <id>21</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ВКМ_НачисленияЗП</source>
+      <source>ВКМ_Выплаты</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
-      <name>ВКМ_НачисленияЗПУправлениеПоиском</name>
+      <name>ВКМ_ВыплатыУправлениеПоиском</name>
       <id>23</id>
       <extendedTooltip>
-        <name>ВКМ_НачисленияЗПУправлениеПоискомРасширеннаяПодсказка</name>
+        <name>ВКМ_ВыплатыУправлениеПоискомРасширеннаяПодсказка</name>
         <id>25</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -432,18 +385,18 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_НачисленияЗПУправлениеПоискомКонтекстноеМеню</name>
+        <name>ВКМ_ВыплатыУправлениеПоискомКонтекстноеМеню</name>
         <id>24</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ВКМ_НачисленияЗП</source>
+      <source>ВКМ_Выплаты</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ВКМ_НачисленияЗПРасширеннаяПодсказка</name>
+      <name>ВКМ_ВыплатыРасширеннаяПодсказка</name>
       <id>16</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -453,7 +406,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ВКМ_НачисленияЗПКонтекстноеМеню</name>
+      <name>ВКМ_ВыплатыКонтекстноеМеню</name>
       <id>14</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -465,6 +418,7 @@
     <selectionMode>MultiRow</selectionMode>
     <header>true</header>
     <headerHeight>1</headerHeight>
+    <footer>true</footer>
     <footerHeight>1</footerHeight>
     <horizontalScrollBar>AutoUse</horizontalScrollBar>
     <verticalScrollBar>AutoUse</verticalScrollBar>
@@ -482,7 +436,7 @@
   </items>
   <items xsi:type="form:FormGroup">
     <name>ГруппаОтветственный</name>
-    <id>46</id>
+    <id>40</id>
     <items xsi:type="form:FormField">
       <name>ВКМ_Ответственный</name>
       <id>10</id>
@@ -577,7 +531,7 @@
     </title>
     <extendedTooltip>
       <name>ГруппаОтветственныйРасширеннаяПодсказка</name>
-      <id>47</id>
+      <id>41</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -614,7 +568,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.ВКМ_НачисленияЗарплаты</types>
+      <types>DocumentObject.ВКМ_ВыплатаЗарплаты</types>
     </valueType>
     <view>
       <common>true</common>
@@ -628,26 +582,25 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
+  <formCommands>
+    <name>ВКМ_Заполнить</name>
+    <title>
+      <key>ru</key>
+      <value>Заполнить</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВКМ_Заполнить</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel>
-      <cmiFragmentRecord>
-        <command>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardCommand.OpenByRecorder</command>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>CalculationRegister.ВКМ_Удержания.StandardCommand.OpenByRecorder</command>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>CalculationRegister.ВКМ_ОсновныеНачисления.StandardCommand.OpenByRecorder</command>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-      </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками.StandardCommand.OpenByRecorder</command>
         <userVisible>
