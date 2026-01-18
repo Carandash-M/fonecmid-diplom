@@ -28,4 +28,8 @@
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>AccumulationRegister.ВКМ_УчетОтпусков</content>
   <content>Role.ВКМ_ДобавлениеИзменениеКадровыхДокументов</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
+  <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>Role.ВКМ_ИспользованиеОтчетаВыработкаСпециалистов</content>
 </mdclass:Subsystem>
