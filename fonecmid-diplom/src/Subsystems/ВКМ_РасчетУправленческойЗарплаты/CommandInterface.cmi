@@ -4,26 +4,22 @@
     <placementFragments>
       <group>CommandGroup.ВКМ_Справочники</group>
       <commands>Catalog.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
-      <commands>Catalog.ВКМ_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
-      <group>CommandGroup.ВКМ_Документы</group>
+      <group>NavigationPanelSeeAlso</group>
       <commands>Document.ВКМ_НачислениеФиксированнойПремии.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_НачисленияЗарплаты.StandardCommand.OpenList</commands>
-      <commands>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>CommandGroup.ВКМ_Справочники</group>
       <commands>Catalog.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
-      <commands>Catalog.ВКМ_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
-      <group>CommandGroup.ВКМ_Документы</group>
-      <commands>Document.ВКМ_НачислениеФиксированнойПремии.StandardCommand.OpenList</commands>
+      <group>NavigationPanelSeeAlso</group>
       <commands>Document.ВКМ_НачисленияЗарплаты.StandardCommand.OpenList</commands>
-      <commands>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.OpenList</commands>
+      <commands>Document.ВКМ_НачислениеФиксированнойПремии.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>
